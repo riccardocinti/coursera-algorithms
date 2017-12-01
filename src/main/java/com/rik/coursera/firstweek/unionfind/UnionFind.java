@@ -1,7 +1,16 @@
 package com.rik.coursera.firstweek.unionfind;
 
-public interface UnionFind {
+public abstract class UnionFind {
 
-    boolean connected(int p, int q);
-    void union(int p, int q);
+    public int[] objects;
+
+    public UnionFind(int N) {
+        this.objects = new int[N];
+        for (int i = 0; i < N; i++) {
+            objects[i] = i;
+        }
+    }
+
+    abstract boolean connected(int p, int q);
+    abstract void union(int p, int q);
 }

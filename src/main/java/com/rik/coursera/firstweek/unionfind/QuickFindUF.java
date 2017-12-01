@@ -5,15 +5,10 @@ package com.rik.coursera.firstweek.unionfind;
  * O(n2) -> it takes N2 array accesses to process
  * a sequence of N union commands on N objects
  */
-public class QuickFindUF implements UnionFind{
-
-    public int[] objects;
+public class QuickFindUF extends UnionFind{
 
     public QuickFindUF(int N){
-        this.objects = new int[N];
-        for(int i = 0; i < N; i++){
-            objects[i] = i;
-        }
+        super(N);
     }
 
     public boolean connected(int p, int q){

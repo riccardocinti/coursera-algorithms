@@ -7,5 +7,5 @@ https://www.coursera.org/learn/algorithms-part1/home/welcome
 #### Week 1
 1. **Union-Find algorithms**
     - [x] quick-find
-    - [ ] quick-union
+    - [x] quick-union
     - [ ] improved quick-union
