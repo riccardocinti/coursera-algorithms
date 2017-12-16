@@ -10,7 +10,7 @@ public class ShellSort implements Sort {
         }
         while(h >= 1){
             for(int i = h; i < n; i++){
-                for(int j = h; j >= h && less(a[j], a[j-h]); j-= h){
+                for(int j = i; j >= h && less(a[j], a[j-h]); j-= h){
                     exchange(a, j, j-h);
                 }
             }

@@ -20,3 +20,8 @@ https://www.coursera.org/learn/algorithms-part1/home/welcome
     - [x] Selection sort
     - [x] Insertion sort
     - [x] Shell sort
+
+#### Week 3
+1. **Merge sort**
+    - [x] top-down
+    - [x] bottom-up
